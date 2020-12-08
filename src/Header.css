@@ -1,0 +1,60 @@
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: 	#DCDCDC;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header__logo {
+    width: 130px;
+    object-fit: contain;
+    margin: 0 20px;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+	margin: 0 20px;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__optionLineOne {
+    text-decoration: underline;
+    text-decoration-color: #57b44b;
+    color: cyan;
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    text-decoration: underline;
+    text-decoration-color: #57b44b;
+    color: cyan;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: #57b44b;
+}
